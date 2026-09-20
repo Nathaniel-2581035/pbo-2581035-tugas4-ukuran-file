@@ -12,7 +12,6 @@ public class UkuranFile {
         System.out.print("Ukuran (byte) : ");
         long ukuranByte = input.nextLong();
 
-
         double ukuranKB = ukuranByte / SATU_KB;
         double ukuranMB = ukuranKB / SATU_KB;
         double ukuranGB = ukuranMB / SATU_KB;
@@ -22,6 +21,9 @@ public class UkuranFile {
         System.out.println("Ukuran (GB): " + ukuranGB);
         int ukuranMBDibulatkan = (int) ukuranMB;
         System.out.println("Dibulatkan ke MB : " + ukuranMBDibulatkan);
+        double selisihPembulatan = ukuranMB - ukuranMBDibulatkan;
+        System.out.println("Selisih pembulatan: " + selisihPembulatan);
+
 
 
 
