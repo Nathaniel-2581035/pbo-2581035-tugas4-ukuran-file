@@ -17,6 +17,13 @@ public class UkuranFile {
         double ukuranMB = ukuranKB / SATU_KB;
         double ukuranGB = ukuranMB / SATU_KB;
 
+        System.out.println("Ukuran (KB): " + ukuranKB);
+        System.out.println("Ukuran (MB): " + ukuranMB);
+        System.out.println("Ukuran (GB): " + ukuranGB);
+        int ukuranMBDibulatkan = (int) ukuranMB;
+        System.out.println("Dibulatkan ke MB : " + ukuranMBDibulatkan);
+
+
 
     }
 }
